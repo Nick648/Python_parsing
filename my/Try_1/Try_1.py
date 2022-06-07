@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 import random
 from time import sleep
 import requests
@@ -8,17 +9,20 @@ import datetime
 import os
 
 requests.packages.urllib3.disable_warnings()
+
 dt_now = datetime.datetime.now()
 now_year = dt_now.year
 # print(dt_now, type(dt_now), dt_now.year, type(dt_now.year))
 
+
+# Заголовки
 headers = {
     "Accept": "*/*",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 }
 
 
-# Создание папок films, urls, cashe
+# Создание папок в проекте для данных
 def create_dirs():
     if not os.path.exists("urls"):  # Creating a folder for copying html page
         os.mkdir("urls")
@@ -27,151 +31,205 @@ def create_dirs():
     if not os.path.exists("trash"):  # Creating a folder for work(delete)
         os.mkdir("trash")
 
+
+# Открывается ли сайт?
 def try_open(url):
     try:
         response = requests.get(url)
+        sleep(random.uniform(1, 2))
         if response.status_code == 200:
-            print('[200] Все хорошо: ' + url)
+            # print('[200] Все хорошо: ' + url)
+            return 1
         else:
-            print('[' + str(response.status_code) + '] Не все хорошо: ' + url)
+            # print('[' + str(response.status_code) + '] Не все хорошо: ' + url)
+            return 0
     except requests.ConnectionError:
-        print(f'Сайта {url} не существует')
+        # print(f'Сайта {url} не существует')
+        return 0
 
-def main():
-    for i in range(2017, 2018):  # now_year
-        print(f"Парсим фильмы за {i} год...")
-        url = f"https://www.kinopoisk.ru/lists/movies/year--{i}/?b=films&b=top"
+
+# Парсинг каждого отдельного фильма и запись в .csv
+def parsing_sites_csv(all_films, year):
+    print("Парсинг сайтов фильмов...")
+    # Заголовки таблицы
+    with open(f"films/Films_{year}.csv", "w", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(
+            (
+                "Название",
+                "Страна",
+                "Рейтинг",
+                "Жанр",
+                "Описание",
+                "Ссылка"
+            )
+        )
+
+    # Parsing film sites
+    count = 0
+    for item in all_films.items():
+        # print(film_name)
+        title = item[0]
+        genre = item[1][0]["Жанр"]
+        country = item[1][0]["Страна"]
+        rating_num = item[1][0]["Рейтинг"]
+        film_href = item[1][0]['Ссылка']
+        req = requests.get(url=film_href, headers=headers, verify=False)
+        src = req.text
+
+        with open(f"trash/{title}.html", "w", encoding="utf-8") as file:
+            file.write(src)
+
+        with open(f"trash/{title}.html", encoding="utf-8") as file:
+            src = file.read()
+
+        soup = BeautifulSoup(src, "lxml")
+        description_p = soup.find("div", class_="visualEditorInsertion filmDesc_editor more_content").find_all("p")
+        description = ""
+        for words in description_p:
+            description += words.text + " "
+
+        # Добавляем данные фильмов
+        film_info = list()
+        film_info.append(
+            {
+                "Title": title,
+                "Country": country,
+                "Rating_num": rating_num,
+                "Genre": genre,
+                "Description": description,
+                "Film_href": film_href
+            }
+        )
+
+        with open(f"films/Films_{year}.csv", "a", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            writer.writerow(
+                (
+                    title,
+                    country,
+                    rating_num,
+                    genre,
+                    description,
+                    film_href
+                )
+            )
+        with open(f"films/Films_{year}_1.json", "w", encoding="utf-8") as file:
+            json.dump(film_info, file, indent=4, ensure_ascii=False)
+
+        count += 1
+        print(f"# Фильм {count} записан...")
+        sleep(random.uniform(1, 2))
+
+
+# Найти трейлер на странице фильма - Pass
+def parse_get_trailer(all_films_dict):
+    for item in all_films_dict:
+        film_href = all_films_dict[item][0]['Ссылка']
+
+        req = requests.get(film_href, headers=headers, verify=False)
+        src = req.text
+
+        with open(f"href.html", "w", encoding="utf-8") as file:
+            file.write(src)
+
+        with open(f"href.html", encoding="utf-8") as file:
+            src = file.read()
+
+        soup = BeautifulSoup(src, "lxml")
+        href = soup.find("a", class_="videoPlayer_playBtn").get('href')
+        print(href)
+        exit()
+
+
+# Запись словаря фильмов в json файл - Pass
+def write_json(films_list, year):
+    all_films_dict = {}
+    for item in films_list:
+        for name in item:
+            all_films_dict[name] = item[name]
+    with open(f"films/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
+        json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
+
+
+# Основной парсинг сайта
+def parse(year):
+    all_films_dict = {'Всего фильмов:': 0}
+
+    for page in range(3):
+        url = f"https://www.kinoafisha.info/rating/movies/{year}/?page={page}"
+        if not try_open(url):
+            return
         # print("URL:", url)
         req = requests.get(url, headers=headers, verify=False)
         src = req.text
         # print(src)
 
-        with open(f"urls/Films_{i}.html", "w", encoding="utf-8") as file:
+        with open(f"urls/Films_{year}_{page}.html", "w", encoding="utf-8") as file:
             file.write(src)
 
-        with open(f"urls/Films_{i}.html", encoding="utf-8") as file:
+        with open(f"urls/Films_{year}_{page}.html", encoding="utf-8") as file:
             src = file.read()
 
-        sleep(random.random())
-
         soup = BeautifulSoup(src, "lxml")
-        all_films = soup.find_all(class_="styles_root__ti07r")
+        all_films = soup.find("div", class_="ratings_list movieList grid_cell9") \
+            .find_all("div", class_="movieList_item movieItem movieItem-rating movieItem-position")
 
-        all_films_dict = {}
+        films_count = int(len(all_films))
+        if films_count == 0:
+            continue
+
         for item in all_films:
-            film_name = item.find("span").text
-            film_href = item.find("a", class_="base-movie-main-info_link__YwtP1").get("href")
-            film_href = "https://www.kinopoisk.ru" + film_href
-            # item_href = "https://health-diet.ru" + item.get("href")
+            # print(item)
+            about_film = item.find("div", class_="movieItem_info")
+            film_name = about_film.find("a", class_="movieItem_title").text
+            genre = about_film.find("span", class_="movieItem_genres").text
+            country = about_film.find("span", class_="movieItem_year").text
+            country = country.split()[1]
+            rating_num = about_film.find("span", class_="rating_num").text
+            film_href = about_film.find("a", class_="movieItem_title").get("href")
+            # film_href = "https://www.kinopoisk.ru" + film_href
 
-            all_films_dict[film_name] = film_href  # item_href
+            film_info = list()
+            film_info.append(
+                {
+                    "Название": film_name,
+                    "Жанр": genre,
+                    "Страна": country,
+                    "Рейтинг": rating_num,
+                    "Ссылка": film_href
+                })
 
-        with open(f"urls/Films_{i}.json", "w", encoding="windows-1251") as file:
-            json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
+            all_films_dict[film_name] = film_info
 
-        with open(f"urls/Films_{i}.json", encoding="windows-1251") as file:
-            all_films = json.load(file)
+        # if page == 0:
+        #     with open(f"films/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
+        #         json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
+        # else:
+        #     with open(f"films/Films_{year}.json", "a", encoding="utf-8") as file:  # windows-1251
+        #         json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
 
-        iteration_count = int(len(all_films))
-        count = 0
-        print(f"Всего фильмов: {iteration_count}")
+        # with open(f"films/Films_{i}.json", encoding="windows-1251") as file:
+        #     all_films = json.load(file)
 
-        for film_name, film_href in all_films.items():
-            req = requests.get(url=film_href, headers=headers, verify=False)
-            src = req.text
+        # parsing_sites_csv(all_films, year)
+        # parse_get_trailer(all_films_dict)
+        sleep(random.uniform(1, 2))
 
-            with open(f"trash/{film_name}.html", "w", encoding="utf-8") as file:
-                file.write(src)
+    all_films_dict['Всего фильмов:'] = len(all_films_dict)
+    with open(f"films/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
+        json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
+    print(f"Всего фильмов: {len(all_films_dict)}")
 
-            with open(f"trash/{film_name}.html", encoding="utf-8") as file:
-                src = file.read()
 
-            soup = BeautifulSoup(src, "lxml")
-
-            # проверка страницы на наличие таблицы с продуктами
-            title = soup.find("h1", class_="styles_title__65Zwx styles_root__l9kHe styles_root__5sqsd styles_rootInDark__SZlor")
-            title = title.find("span").text
-            print(title)
-            description = soup.find("p", class_="styles_root__aZJRN").text
-            print(description)
-            rows = soup.find("div", data_test_id="encyclopedic-table").find_all("div", class_="styles_rowLight__P8Y_1 styles_row__da_RK")
-            print(rows)
-            country = rows.find_all("div", class_="styles_valueLight__nAaO3 styles_value__g6yP4")
-            country = country.find("a", class_="styles_linkLight__cha3C styles_link__3QfAk").text
-            genre = rows.find_all("div", class_="styles_valueLight__nAaO3 styles_value__g6yP4")
-            iteration_count -= 1
-            print(f"Осталось итераций: {iteration_count}")
-            sleep(random.randrange(1, 3))
-
-"""
-            # собираем заголовки таблицы
-            table_head = soup.find(class_="mzr-tc-group-table").find("tr").find_all("th")
-            product = table_head[0].text
-            calories = table_head[1].text
-            proteins = table_head[2].text
-            fats = table_head[3].text
-            carbohydrates = table_head[4].text
-
-            with open(f"data/{count}_{category_name}.csv", "w", encoding="utf-8") as file:
-                writer = csv.writer(file)
-                writer.writerow(
-                    (
-                        product,
-                        calories,
-                        proteins,
-                        fats,
-                        carbohydrates
-                    )
-                )
-
-            # собираем данные продуктов
-            products_data = soup.find(class_="mzr-tc-group-table").find("tbody").find_all("tr")
-
-            product_info = []
-            for item in products_data:
-                product_tds = item.find_all("td")
-
-                title = product_tds[0].find("a").text
-                calories = product_tds[1].text
-                proteins = product_tds[2].text
-                fats = product_tds[3].text
-                carbohydrates = product_tds[4].text
-
-                product_info.append(
-                    {
-                        "Title": title,
-                        "Calories": calories,
-                        "Proteins": proteins,
-                        "Fats": fats,
-                        "Carbohydrates": carbohydrates
-                    }
-                )
-
-                with open(f"data/{count}_{category_name}.csv", "a", encoding="utf-8") as file:
-                    writer = csv.writer(file)
-                    writer.writerow(
-                        (
-                            title,
-                            calories,
-                            proteins,
-                            fats,
-                            carbohydrates
-                        )
-                    )
-            with open(f"data/{count}_{category_name}.json", "a", encoding="utf-8") as file:
-                json.dump(product_info, file, indent=4, ensure_ascii=False)
-
-            count += 1
-            print(f"# Итерация {count}. {category_name} записан...")
-            iteration_count = iteration_count - 1
-
-            if iteration_count == 0:
-                print("Работа завершена")
-                break
-"""
-
+# Начало программы
+def main():
+    for year in range(2017, now_year + 1):
+        print(f"\nПарсинг фильмов за {year} год...")
+        parse(year)
 
 
 if __name__ == '__main__':
     create_dirs()
     main()
+    print("\n", "-" * 20, "Done!", "-" * 20)
