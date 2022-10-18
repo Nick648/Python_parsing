@@ -10,26 +10,26 @@ import os
 
 requests.packages.urllib3.disable_warnings()
 
-dt_now = datetime.datetime.now()
-now_year = dt_now.year
-# print(dt_now, type(dt_now), dt_now.year, type(dt_now.year))
-
-
 # Заголовки
 headers = {
     "Accept": "*/*",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 }
 
+# Name of folders
+F_URLS = 'urls'
+F_FILMS = 'films'
+F_TRASH = 'trash'
+
 
 # Создание папок в проекте для данных
 def create_dirs():
-    if not os.path.exists("urls"):  # Creating a folder for copying html page
-        os.mkdir("urls")
-    if not os.path.exists("films"):  # Creating a folder for film description
-        os.mkdir("films")
-    if not os.path.exists("trash"):  # Creating a folder for work(delete)
-        os.mkdir("trash")
+    if not os.path.exists(F_URLS):  # Creating a folder for copying html page
+        os.mkdir(F_URLS)
+    if not os.path.exists(F_FILMS):  # Creating a folder for film description
+        os.mkdir(F_FILMS)
+    if not os.path.exists(F_TRASH):  # Creating a folder for work(delete)
+        os.mkdir(F_TRASH)
 
 
 # Открывается ли сайт?
@@ -52,7 +52,7 @@ def try_open(url):
 def parsing_sites_csv(all_films, year):
     print("Парсинг сайтов фильмов...")
     # Заголовки таблицы
-    with open(f"films/Films_{year}.csv", "w", encoding="utf-8") as file:
+    with open(f"{F_FILMS}/Films_{year}.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(
             (
@@ -77,10 +77,10 @@ def parsing_sites_csv(all_films, year):
         req = requests.get(url=film_href, headers=headers, verify=False)
         src = req.text
 
-        with open(f"trash/{title}.html", "w", encoding="utf-8") as file:
+        with open(f"{F_TRASH}/{title}.html", "w", encoding="utf-8") as file:
             file.write(src)
 
-        with open(f"trash/{title}.html", encoding="utf-8") as file:
+        with open(f"{F_TRASH}/{title}.html", encoding="utf-8") as file:
             src = file.read()
 
         soup = BeautifulSoup(src, "lxml")
@@ -102,7 +102,7 @@ def parsing_sites_csv(all_films, year):
             }
         )
 
-        with open(f"films/Films_{year}.csv", "a", encoding="utf-8") as file:
+        with open(f"{F_FILMS}/Films_{year}.csv", "a", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(
                 (
@@ -114,7 +114,7 @@ def parsing_sites_csv(all_films, year):
                     film_href
                 )
             )
-        with open(f"films/Films_{year}_1.json", "w", encoding="utf-8") as file:
+        with open(f"{F_FILMS}/Films_{year}_1.json", "w", encoding="utf-8") as file:
             json.dump(film_info, file, indent=4, ensure_ascii=False)
 
         count += 1
@@ -148,7 +148,7 @@ def write_json(films_list, year):
     for item in films_list:
         for name in item:
             all_films_dict[name] = item[name]
-    with open(f"films/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
+    with open(f"{F_FILMS}/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
         json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
 
 
@@ -165,10 +165,10 @@ def parse(year):
         src = req.text
         # print(src)
 
-        with open(f"urls/Films_{year}_{page}.html", "w", encoding="utf-8") as file:
+        with open(f"{F_URLS}/Films_{year}_{page}.html", "w", encoding="utf-8") as file:
             file.write(src)
 
-        with open(f"urls/Films_{year}_{page}.html", encoding="utf-8") as file:
+        with open(f"{F_URLS}/Films_{year}_{page}.html", encoding="utf-8") as file:
             src = file.read()
 
         soup = BeautifulSoup(src, "lxml")
@@ -217,13 +217,16 @@ def parse(year):
         sleep(random.uniform(1, 2))
 
     all_films_dict['Всего фильмов:'] = len(all_films_dict)
-    with open(f"films/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
+    with open(f"{F_FILMS}/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
         json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
     print(f"Всего фильмов: {len(all_films_dict)}")
 
 
 # Начало программы
 def main():
+    dt_now = datetime.datetime.now()
+    now_year = dt_now.year
+    # print(dt_now, type(dt_now), dt_now.year, type(dt_now.year))
     for year in range(2017, now_year + 1):
         print(f"\nПарсинг фильмов за {year} год...")
         parse(year)
@@ -232,4 +235,4 @@ def main():
 if __name__ == '__main__':
     create_dirs()
     main()
-    print("\n", "-" * 20, "Done!", "-" * 20)
+    print(f"\n{'-' * 20} Done! {'-' * 20}")
