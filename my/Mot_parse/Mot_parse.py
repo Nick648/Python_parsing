@@ -21,41 +21,8 @@ requests.packages.urllib3.disable_warnings()
 
 # Заголовки
 headers = {
-    "Accept": "*/*",
-    # "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
-    'Request URL': 'https://dm.hybrid.ai/yandexdmp-match',
-    'Request Method': 'GET',
-    'Status Code': '302',
-    'Remote Address': '37.18.16.21:443',
-    'Referrer Policy': 'strict-origin-when-cross-origin',
-    'access-control-allow-origin': '*',
-    'cache-control': 'no-cache, no-store',
-    'content-length': '0',
-    'date': 'Wed, 19 Oct 2022 21:58:30 GMT',
-    'expires': '-1',
-    'location': 'https://an.yandex.ru/mapuid/dmphybridai/c74fe4ab13718395574d?sign=304647681',
-    'p3p': 'CP="NOI DSP COR CUR ADMa DEVo TAIo PSAo PSDo IVAo IVDo OUR IND COM NAV INT STA OTC"',
-    'pragma': 'no-cache',
-    'server': 'Hybrid Web Server',
-    'x-mode': '106',
-    'x-xss-protection': '1; mode=block',
-    'authority': 'dm.hybrid.ai',
-    'method': 'GET',
-    'path': '/yandexdmp-match',
-    'scheme': 'https',
-    'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-    'accept-encoding': 'gzip, deflate, br',
-    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cookie': 'vid=c74fe4ab13718395574d; mkmgsgp=RK0T1G',
-    'dnt': '1',
-    'referer': 'https://www.avito.ru/',
-    'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Windows"',
-    'sec-fetch-dest': 'image',
-    'sec-fetch-mode': 'no-cors',
-    'sec-fetch-site': 'cross-site',
-    'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'Accept': '*/*',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36',
 }
 
 # Name of folders
@@ -102,16 +69,14 @@ def get_headers():
 
 # Открывается ли сайт?
 def try_open(url):
-    print(headers)
     try:
         response = requests.get(url, headers=headers, verify=False)
         sleep(random.uniform(1, 2))
         if response.status_code == 200:
-            print('[200] Все хорошо: ' + url)
-            print(response.json())
+            # print(f'Response [200] Все хорошо: {url}')
             return True
         else:
-            print('[' + str(response.status_code) + '] Не все хорошо: ' + url)
+            print(f'Response [{response.status_code}] Не все хорошо: {url}')
             return False
     except requests.ConnectionError:
         print(f'Сайта {url} не существует')
@@ -276,26 +241,29 @@ def parse(year):
 
 
 # Парсинг сайта авито
-def parse_avito():
+def parse_auto_ru():
     all_mot_dict = {'Всего мотоциклов:': 0}
-    url = 'https://www.avito.ru/moskva/mototsikly_i_mototehnika/mototsikly/dorozhnye-' \
-          'ASgBAgICAkQ80k2~B9RN?cd=1&q=bajaj+pulsar+ns+200&radius=300'
+    url = 'https://auto.ru/'
+    url = 'https://auto.ru/moskva/motorcycle/bajaj/pulsar/all/?sort=price-asc'
     if not try_open(url):
         return
 
     req = requests.get(url, headers=headers, verify=False)
-    src = req.text
-    # src.encoding = 'utf8'
-    with open(f"{F_URLS}/Avito_1.html", "w", encoding="utf-8") as file:
+    src = req.text  # .encoding = 'cp1251'
+    src = req.encoding = 'utf-8'
+    print(src)
+
+    with open(f"{F_URLS}/Auto_ru_1.html", "w", encoding="utf-8") as file:
         file.write(src)
-    with open(f"{F_URLS}/Avito_1.html", encoding="utf-8") as file:
+    with open(f"{F_URLS}/Auto_ru_1.html", encoding="utf-8") as file:
         src = file.read()
     soup = BeautifulSoup(src, "lxml")
-    all_mots = soup.find("div", class_="items-items-kAJAg") \
-        .find_all("div", data_marker="item")
+    all_mots = soup.find("div", class_="LayoutSidebar")  # ListingCars ListingCars_outputType_list
+    print(all_mots)
+    exit()
+    # .find_all("div", class_="ListingItem")
 
-    mots_count = int(len(all_mots))
-    all_mot_dict['Всего мотоциклов:'] = len(mots_count)
+    all_mot_dict['Всего мотоциклов:'] = len(all_mots)
     print(f"all_mot_dict: {all_mot_dict}\n\nall_mots:\n{all_mots}")
     return
 
@@ -304,7 +272,7 @@ def parse_avito():
 def main():
     dt_now = datetime.datetime.now()
     now_date = dt_now.day, dt_now.month, dt_now.year
-    parse_avito()
+    parse_auto_ru()
 
     # for year in range(2017, now_year + 1):
     #     print(f"\nПарсинг фильмов за {year} год...")
@@ -314,11 +282,11 @@ def main():
 if __name__ == '__main__':
     hello = YELLOW + " Программа для парсинга объявления мотоциклов(Авито, auto.ru) " + RESET
     print("\n", "{:*^150}".format(hello), "\n", sep='')
-    get_headers()
-    # create_dirs()
+    # get_headers()
+    create_dirs()
     main()
-    # print(f"\n\t{'-' * 20} Done! {'-' * 20}")
     print("\n\t", "{:-^45}".format(' Done! '))
+
     href_avito = 'https://www.avito.ru/moskva/mototsikly_i_mototehnika/mototsikly/dorozhnye-' \
                  'ASgBAgICAkQ80k2~B9RN?cd=1&q=bajaj+pulsar+ns+200&radius=300'
     href_avito_2 = 'https://www.avito.ru/moskva/mototsikly_i_mototehnika/mototsikly/dorozhnye' \
