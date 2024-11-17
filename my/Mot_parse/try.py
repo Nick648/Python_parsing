@@ -211,6 +211,7 @@ def parse_bike(url):
           f'Состояние: {condition}\n'
           f'Владельцы: {owners}\n'
           f'ПТС: {pts}\n'
+          f'ПТС: {pts}\n'
           f'Комментарий продавца: {description}\n'
           f'Рейтинг: {reviews}\n'
           f'Link: {url}\n'
@@ -338,12 +339,60 @@ def try_post():  # Fail for auto.ru
     exit()
 
 
+def try_session():
+    from requests_html import HTMLSession
+
+    url = 'https://auto.ru/schelkovo/motorcycle/bajaj/pulsar/all/?sort=price-asc'
+    session = HTMLSession()
+    r = session.get(url, headers=dict_headers)
+    r.encoding = 'latin1'
+    print(f'URL: {url}')
+
+    r.html.render()  # run javascript
+    ans = r
+    ht_ml = r.text  # <class 'str'>
+    ht_ml_1 = r.html  # <class 'requests_html.HTML'>
+
+    # print(ans, '\n', ht_ml)
+
+    # l = r.html.absolute_links
+    # l_1 = r.html.links
+    # print(len(l), type(l))
+    # print(len(l_1), type(l_1))
+    # for e in l:
+    #     print(e)
+    # print('8' * 40)
+    # for e in l_1:
+    #     print(e)
+
+    with open(f"{F_URLS}/Auto_ru_11.html", "w", encoding='latin1') as file:  # 'latin-1'  ISO-8859-1
+        file.write(r.text)
+    # with open(f"{F_URLS}/Auto_ru_11.html", encoding='utf-8') as file:
+    #     src = file.read()
+
+    # src = r.content
+    # print(type(src), len(src), src)
+
+    page_list = r.html.find('.listing-filters')
+    print(page_list, type(page_list))
+
+    # about = r.html.find('#donate-button', first=True) #   . = class  # = id
+    # about_1 = r.html.find('#donate-button', first=True).text
+    # about_2 = r.html.find('#donate-button', first=True).attrs
+    # about_3 = r.html.find('#donate-button', first=True).html
+    # about_4 = r.html.find('#donate-button', first=True).tag
+
+    # text = r.html.search('Calculations are {} with')[0] # find word
+    # text_1 = r.html.xpath("")
+
+
 # Начало программы
 def main():
     # dt_now = datetime.datetime.now()
     # now_date = dt_now.day, dt_now.month, dt_now.year
 
-    parse_auto_ru()
+    # parse_auto_ru()
+    try_session()
 
 
 if __name__ == '__main__':

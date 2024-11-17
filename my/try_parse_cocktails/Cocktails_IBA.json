@@ -1,0 +1,1529 @@
+{
+    "Всего коктейлей:": 116,
+    "Alexander": [
+        {
+            "English_name": "Alexander",
+            "Russian_name": "Александр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/20-xfWc06-1626401243.jpg",
+            "Structure": {
+                "Бренди, коньяк": "30 мл.",
+                "Ликёр крем де какао коричневый": "30 мл.",
+                "Сливки 20%": "30 мл."
+            }
+        }
+    ],
+    "Amaretto Sour": [
+        {
+            "English_name": "Amaretto Sour",
+            "Russian_name": "Амаретто Сауэр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/123-2gJH4T-1651670609.png",
+            "Structure": {
+                "Ликёр амаретто Disaronno": "50 мл.",
+                "Биттер Angostura": "1 дэш",
+                "Сироп сахарный": "5 мл.",
+                "Сок лимонный": "25 мл.",
+                "Яйцо куриное белок": "15 мл."
+            }
+        }
+    ],
+    "Americano": [
+        {
+            "English_name": "Americano",
+            "Russian_name": "Американо",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/14-qX0gi6-1626401298.jpg",
+            "Structure": {
+                "Биттер аперитивный Campari": "30 мл.",
+                "Вермут красный (rosso) сладкий": "30 мл.",
+                "Вода": "1 сплеш"
+            }
+        }
+    ],
+    "Angel Face": [
+        {
+            "English_name": "Angel Face",
+            "Russian_name": "Энджел Фейс",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/21-EpwGqO-1626401369.jpg",
+            "Structure": {
+                "Джин": "30 мл.",
+                "Кальвадос": "30 мл.",
+                "Ликёр абрикосовый бренди": "30 мл."
+            }
+        }
+    ],
+    "Aviation": [
+        {
+            "English_name": "Aviation",
+            "Russian_name": "Авиэйшн",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/25-lAPFpq-1626401418.jpg",
+            "Structure": {
+                "Джин": "45 мл.",
+                "Ликёр мараскино": "15 мл.",
+                "Ликёр крем де виолет": "5 мл.",
+                "Сок лимонный": "15 мл."
+            }
+        }
+    ],
+    "Bamboo": [
+        {
+            "English_name": "Bamboo",
+            "Russian_name": "Бамбу",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/127-whW0JA-1651670675.png",
+            "Structure": {
+                "Херес фино / fino": "45 мл.",
+                "Вермут сухой (dry)": "20 мл.",
+                "Вермут красный (rosso)": "30 мл.",
+                "Биттер Angostura Orange": "1 дэш"
+            }
+        }
+    ],
+    "Barracuda": [
+        {
+            "English_name": "Barracuda",
+            "Russian_name": "Барракуда",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/31-b1iIup-1626401479.jpg",
+            "Structure": {
+                "Ром золотой": "45 мл.",
+                "Ликёр травяной Galliano l`Autentico": "15 мл.",
+                "Шампанское, Игристое вино сухое / dry Prosecco": "70 мл.",
+                "Сок ананасовый": "45 мл.",
+                "Сок лаймовый": "7.5 мл."
+            }
+        }
+    ],
+    "Bee`s Knees": [
+        {
+            "English_name": "Bee`s Knees",
+            "Russian_name": "Би Низ",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/35-iZZw54-1626401538.jpg",
+            "Structure": {
+                "Джин London Dry": "52.5 мл.",
+                "Сок лимонный": "22.5 мл.",
+                "Сок апельсиновый": "22.5 мл.",
+                "Сироп медовый": "10 мл."
+            }
+        }
+    ],
+    "Bellini": [
+        {
+            "English_name": "Bellini",
+            "Russian_name": "Беллини",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/27-xNpYvv-1626401585.jpg",
+            "Structure": {
+                "Шампанское, Игристое вино сухое / dry Prosecco": "100 мл.",
+                "Пюре персик": "50 мл."
+            }
+        }
+    ],
+    "Bennett Cocktail": [
+        {
+            "English_name": "Bennett Cocktail",
+            "Russian_name": "Беннетт коктейль",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/124-dm3VyG-1637784451.jpg",
+            "Structure": {
+                "Джин London Dry": "60 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Сок лаймовый": "22.5 мл.",
+                "Сироп сахарный": "15 мл."
+            }
+        }
+    ],
+    "Between the sheets": [
+        {
+            "English_name": "Between the sheets",
+            "Russian_name": "Битвин Зе Шитс",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/24-oa5Ucg-1626401639.jpg",
+            "Structure": {
+                "Ром белый": "30 мл.",
+                "Бренди, коньяк": "30 мл.",
+                "Ликёр трипл сек": "30 мл.",
+                "Сок лимонный": "20 мл."
+            }
+        }
+    ],
+    "Black Russian": [
+        {
+            "English_name": "Black Russian",
+            "Russian_name": "Блэк Рашн",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/28-jbfKXT-1626401677.jpg",
+            "Structure": {
+                "Водка": "50 мл.",
+                "Ликёр кофейный": "20 мл."
+            }
+        }
+    ],
+    "Blood and Sand": [
+        {
+            "English_name": "Blood and Sand",
+            "Russian_name": "Блуд энд Сэнд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/121-fEdJvV-1651673947.png",
+            "Structure": {
+                "Виски шотландский": "30 мл.",
+                "Вермут красный (rosso)": "30 мл.",
+                "Ликёр вишнёвый Heering": "30 мл.",
+                "Сок апельсиновый": "30 мл."
+            }
+        }
+    ],
+    "Bloody Mary": [
+        {
+            "English_name": "Bloody Mary",
+            "Russian_name": "Блади Мэри",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/29-F8iQuW-1626401713.jpg",
+            "Structure": {
+                "Водка": "45 мл.",
+                "Сок томатный": "90 мл.",
+                "Сок лимонный": "15 мл.",
+                "Соус Вустерский / Worcestershire": "2",
+                "Соус Табаско / Tabasco": "1",
+                "Специи сельдерейная соль": "1 гр.",
+                "Специи чёрный перец": "1 гр."
+            }
+        }
+    ],
+    "Bloody Mary with ice": [
+        {
+            "English_name": "Bloody Mary with ice",
+            "Russian_name": "Блади Мэри",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/42-ps3UI8-1626407710.jpg",
+            "Structure": {
+                "Водка": "45 мл.",
+                "Сок томатный": "90 мл.",
+                "Сок лимонный": "15 мл.",
+                "Соус Вустерский / Worcestershire": "2 дэш/dash",
+                "Соус Табаско / Tabasco": "1 дэш/dash",
+                "Специи сельдерейная соль": "1 гр.",
+                "Специи чёрный перец": "1 гр."
+            }
+        }
+    ],
+    "Bobby Burns": [
+        {
+            "English_name": "Bobby Burns",
+            "Russian_name": "Бобби Бёрнс",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/128-eRwwrA-1651674185.png",
+            "Structure": {
+                "Виски шотландский": "45 мл.",
+                "Вермут красный (rosso)": "45 мл.",
+                "Ликёр Bénédictine": "22.5 мл."
+            }
+        }
+    ],
+    "Boulevardier": [
+        {
+            "English_name": "Boulevardier",
+            "Russian_name": "Бульвардье",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/26-2IdyzM-1626401759.jpg",
+            "Structure": {
+                "Виски бурбон или ржаной виски": "45 мл.",
+                "Биттер аперитивный Campari": "30 мл.",
+                "Вермут красный (rosso) сладкий": "30 мл."
+            }
+        }
+    ],
+    "Bourbon and Coke": [
+        {
+            "English_name": "Bourbon and Coke",
+            "Russian_name": "Бурбон энд Коук",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/136-r3d4kw-1651674399.png",
+            "Structure": {
+                "Виски бурбон": "60 мл.",
+                "Лимонад кола классическая": "100 мл."
+            }
+        }
+    ],
+    "Bramble": [
+        {
+            "English_name": "Bramble",
+            "Russian_name": "Брамбл",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/34-sIELSp-1626401813.jpg",
+            "Structure": {
+                "Джин London Dry": "50 мл.",
+                "Ликёр фалернум ежевичный": "15 мл.",
+                "Сок лимонный": "25 мл.",
+                "Сироп сахарный rich (насыщенный) 2:1": "12.5 мл."
+            }
+        }
+    ],
+    "Brandy Crusta": [
+        {
+            "English_name": "Brandy Crusta",
+            "Russian_name": "Бренди Краста",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/30-BSB1re-1626401852.jpg",
+            "Structure": {
+                "Бренди, коньяк": "52.5 мл.",
+                "Ликёр мараскино": "7.5 мл.",
+                "Ликёр трипл сек (в оригинале Curacao прозрачный)": "5 мл.",
+                "Биттер ароматический Angostura": "2 дэш",
+                "Сок лимонный": "15 мл.",
+                "Сироп сахарный": "5 мл."
+            }
+        }
+    ],
+    "Brandy and Soda": [
+        {
+            "English_name": "Brandy and Soda",
+            "Russian_name": "Бренди энд Сода",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/137-qAN6Qn-1651674784.png",
+            "Structure": {
+                "Бренди, коньяк V.S. / 3 года.": "60 мл.",
+                "Вода содовая": "100 мл."
+            }
+        }
+    ],
+    "Caipirinha": [
+        {
+            "English_name": "Caipirinha",
+            "Russian_name": "Кайпиринья",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/76-nJG80H-1626401879.jpg",
+            "Structure": {
+                "Кашаса": "60 мл.",
+                "Цитрусовый лайм": "1 шт.",
+                "Специи сахар": "2 гр."
+            }
+        }
+    ],
+    "Canchanchara": [
+        {
+            "English_name": "Canchanchara",
+            "Russian_name": "Канчанчара",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/36-zUE38j-1626401934.jpg",
+            "Structure": {
+                "Ром выдержанный >3 лет Агуарденте": "60 мл.",
+                "Сок лимонный": "15 мл.",
+                "Вода без газа": "50 мл.",
+                "Мёд сырой не обработанный": "15 мл."
+            }
+        }
+    ],
+    "Casino": [
+        {
+            "English_name": "Casino",
+            "Russian_name": "Казино",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/32-kDkyIN-1626401982.jpg",
+            "Structure": {
+                "Джин Old Tom": "40 мл.",
+                "Ликёр мараскино": "10 мл.",
+                "Биттер ароматический апельсиновый": "2 дэш",
+                "Сок лимонный": "10 мл."
+            }
+        }
+    ],
+    "Champagne Cocktail": [
+        {
+            "English_name": "Champagne Cocktail",
+            "Russian_name": "Шампань Коктейль",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/77-ylCChX-1626402035.jpg",
+            "Structure": {
+                "Шампанское, Игристое вино сухое / dry": "90 мл.",
+                "Бренди, коньяк": "10 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Специи сахар": "2 гр."
+            }
+        }
+    ],
+    "Clover Club": [
+        {
+            "English_name": "Clover Club",
+            "Russian_name": "Кловер Клаб",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/37-BZXyWr-1626402116.jpg",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Сироп малиновый": "15 мл.",
+                "Сок лимонный": "15 мл.",
+                "Яйцо куриное белок": "15 мл."
+            }
+        }
+    ],
+    "Coco Connection": [
+        {
+            "English_name": "Coco Connection",
+            "Russian_name": "Коко Конекшн",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/116-B77uBX-1636398444.jpg",
+            "Structure": {
+                "Бренди, коньяк  Chang Yu": "40 мл.",
+                "Ликёр амаретто Fruko Schulz": "20 мл.",
+                "Сироп солёная карамель Barline": "5 мл."
+            }
+        }
+    ],
+    "Corpse Reviver №2": [
+        {
+            "English_name": "Corpse Reviver №2",
+            "Russian_name": "Корпс Ривайва №2",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/96-chgiea-1626402208.jpg",
+            "Structure": {
+                "Абсент классический": "1 дэш",
+                "Джин London Dry": "30 мл.",
+                "Ликёр трипл сек Cointreau": "30 мл.",
+                "Вермут белый (bianco) Lillet Blanc": "30 мл.",
+                "Сок лимонный": "30 мл."
+            }
+        }
+    ],
+    "Cosmopolitan": [
+        {
+            "English_name": "Cosmopolitan",
+            "Russian_name": "Космополитен",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/97-dqoIrR-1626402246.jpg",
+            "Structure": {
+                "Водка лимонная": "40 мл.",
+                "Ликёр трипл сек Cointreau": "15 мл.",
+                "Сок лаймовый": "15 мл.",
+                "Морс клюквенный": "30 мл."
+            }
+        }
+    ],
+    "Cuba Libre": [
+        {
+            "English_name": "Cuba Libre",
+            "Russian_name": "Куба Либре",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/98-WG9eyx-1626402282.jpg",
+            "Structure": {
+                "Ром белый Кубинский": "50 мл.",
+                "Лимонад кола классическая": "120 мл.",
+                "Сок лаймовый": "10 мл."
+            }
+        }
+    ],
+    "Daiquiri": [
+        {
+            "English_name": "Daiquiri",
+            "Russian_name": "Дайкири",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/13-MQZagU-1626402332.jpg",
+            "Structure": {
+                "Ром белый кубинский": "60 мл.",
+                "Сок лаймовый": "20 мл.",
+                "Сироп сахарный": "15 мл."
+            }
+        }
+    ],
+    "Dark’n’Stormy": [
+        {
+            "English_name": "Dark’n’Stormy",
+            "Russian_name": "Дак-Эн-Стоми",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/67-ZpDJc4-1626402396.jpg",
+            "Structure": {
+                "Ром  Goslings": "60 мл.",
+                "Пиво имбирное": "100 мл."
+            }
+        }
+    ],
+    "Dry Martini": [
+        {
+            "English_name": "Dry Martini",
+            "Russian_name": "Драй Мартини",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/78-GyvAqP-1626402458.jpg",
+            "Structure": {
+                "Джин London Dry": "60 мл.",
+                "Вермут сухой (dry)": "10 мл."
+            }
+        }
+    ],
+    "East India Cocktail": [
+        {
+            "English_name": "East India Cocktail",
+            "Russian_name": "Ист Индия Коктейль",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/132-02xVVe-1651675197.png",
+            "Structure": {
+                "Бренди, коньяк V.S. / 3 года.": "50 мл.",
+                "Ликёр трипл сек": "10 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Сок ананасовый": "15 мл.",
+                "Сироп сахарный": "5 мл."
+            }
+        }
+    ],
+    "Enso": [
+        {
+            "English_name": "Enso",
+            "Russian_name": "Энсо",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/118-C41e3c-1636398471.jpg",
+            "Structure": {
+                "Байдзю  «Феньцзю»": "30 мл.",
+                "Вермут сухой (dry)": "25 мл.",
+                "Сок алое": "50 мл.",
+                "Сироп жасмин Барлайн": "15 мл.",
+                "Пюре лимон Агробар": "15 мл.",
+                "Травы, листья спирулина голубая": "0.5 гр."
+            }
+        }
+    ],
+    "Espresso Martini": [
+        {
+            "English_name": "Espresso Martini",
+            "Russian_name": "Эспрессо Мартини",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/68-aBDB51-1626402511.jpg",
+            "Structure": {
+                "Водка": "50 мл.",
+                "Ликёр кофейный": "30 мл.",
+                "Сироп сахарный": "10 мл.",
+                "Кофе эспрессо": "30 мл."
+            }
+        }
+    ],
+    "Fernandito": [
+        {
+            "English_name": "Fernandito",
+            "Russian_name": "Фернандито",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/69-77wyXw-1626402582.jpg",
+            "Structure": {
+                "Биттер аперитивный Fernet Franca": "50 мл.",
+                "Лимонад кола классическая": "200 мл."
+            }
+        }
+    ],
+    "Fog Cutter": [
+        {
+            "English_name": "Fog Cutter",
+            "Russian_name": "Фог Каттер",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/131-tdvP14-1638032088.jpg",
+            "Structure": {
+                "Ром белый": "45 мл.",
+                "Бренди, коньяк V.S. / 3 года.": "15 мл.",
+                "Джин London Dry": "15 мл.",
+                "Писко": "10 мл.",
+                "Херес олоросо / oloroso": "15 мл.",
+                "Сок апельсиновый": "45 мл.",
+                "Сок лимонный": "15 мл.",
+                "Сироп оршад (orgeat)": "15 мл."
+            }
+        }
+    ],
+    "French 75": [
+        {
+            "English_name": "French 75",
+            "Russian_name": "Френч 75",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/102-f5sEpa-1626402619.jpg",
+            "Structure": {
+                "Джин London Dry": "30 мл.",
+                "Шампанское, Игристое вино сухое / dry": "60 мл.",
+                "Сок лимонный": "15 мл.",
+                "Сироп сахарный": "15 мл."
+            }
+        }
+    ],
+    "French Connection": [
+        {
+            "English_name": "French Connection",
+            "Russian_name": "Френч Конэкшн",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/103-INIaZt-1626402675.jpg",
+            "Structure": {
+                "Бренди, коньяк": "35 мл.",
+                "Ликёр амаретто": "35 мл."
+            }
+        }
+    ],
+    "French Martini": [
+        {
+            "English_name": "French Martini",
+            "Russian_name": "Френч Мартини",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/53-e9JQmi-1626402712.jpg",
+            "Structure": {
+                "Водка": "45 мл.",
+                "Ликёр малиновый": "15 мл.",
+                "Сок ананасовый свежевыжатый": "15 мл."
+            }
+        }
+    ],
+    "Frozen Banana Colada": [
+        {
+            "English_name": "Frozen Banana Colada",
+            "Russian_name": "Фроузен Банана Колада",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/125-j6gT8e-1637913470.jpg",
+            "Structure": {
+                "Ром золотой": "30 мл.",
+                "Ром темный": "30 мл.",
+                "Фрукт банан очищенный": "1 шт.",
+                "Сок ананасовый свежевыжатый": "80 мл.",
+                "Сливки кокосовые": "40 мл.",
+                "Сироп банановый Барлайн": "15 мл."
+            }
+        }
+    ],
+    "Frozen Pina Colada": [
+        {
+            "English_name": "Frozen Pina Colada",
+            "Russian_name": "Фроузен Пина Колада",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/122-MVP8sg-1636914868.jpg",
+            "Structure": {
+                "Ром золотой": "60 мл.",
+                "Кашаса": "10 мл.",
+                "Сок ананасовый свежевыжатый": "105 мл.",
+                "Сок лаймовый свежевыжатый": "15 мл.",
+                "Сливки кокосовые": "мл."
+            }
+        }
+    ],
+    "Gin Fizz": [
+        {
+            "English_name": "Gin Fizz",
+            "Russian_name": "Джин Физ",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/79-9b4iBF-1626402780.jpg",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Сок лимонный": "30 мл.",
+                "Сироп сахарный": "10 мл.",
+                "Вода сильногазированная": "120 мл."
+            }
+        }
+    ],
+    "Golden Dream": [
+        {
+            "English_name": "Golden Dream",
+            "Russian_name": "Голден Дрим",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/104-R5RziJ-1626402828.jpg",
+            "Structure": {
+                "Ликёр ванильный Galliano": "20 мл.",
+                "Ликёр трипл сек": "20 мл.",
+                "Сок апельсиновый свежевыжатый": "20 мл.",
+                "Сливки": "10 мл."
+            }
+        }
+    ],
+    "Grasshopper": [
+        {
+            "English_name": "Grasshopper",
+            "Russian_name": "Грассхоппер",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/33-FaqSwh-1626402889.jpg",
+            "Structure": {
+                "Ликёр крем де какао прозрачный Crème de Cacao (transparent)": "20 мл.",
+                "Ликёр крем де мент Crème de Menthe (green)": "20 мл.",
+                "Сливки": "20 мл."
+            }
+        }
+    ],
+    "Hanky Panky": [
+        {
+            "English_name": "Hanky Panky",
+            "Russian_name": "Ханки Панки",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/80-L7XaKo-1626402954.jpg",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Вермут красный (rosso)": "45 мл.",
+                "Биттер аперитивный": "7.5 мл."
+            }
+        }
+    ],
+    "Harmony": [
+        {
+            "English_name": "Harmony",
+            "Russian_name": "Гармония",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/113-xaj9Zk-1636398493.jpg",
+            "Structure": {
+                "Байдзю  Maotai": "5 мл.",
+                "Джин  Barrister Orange": "15 мл.",
+                "Винный аперитив  Lillet Blanc": "15 мл.",
+                "Ликёр зелёное яблоко Fruko Schulz": "15 мл.",
+                "Сироп банановый Barline": "15 мл.",
+                "Раствор лимонной кислоты (60 г. лимонной кислоты на 1 л. воды)": "20 мл."
+            }
+        }
+    ],
+    "Hemingway Special": [
+        {
+            "English_name": "Hemingway Special",
+            "Russian_name": "Хэмингуэй Спешл",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/38-evPZur-1626402995.jpg",
+            "Structure": {
+                "Ром белый": "60 мл.",
+                "Ликёр мараскино Maraschino": "15 мл.",
+                "Сок лаймовый свежевыжатый": "15 мл.",
+                "Сок грейпфрутовый свежевыжатый": "40 мл."
+            }
+        }
+    ],
+    "Horse’s Neck": [
+        {
+            "English_name": "Horse’s Neck",
+            "Russian_name": "Хорсиз Нэк",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/39-b7WOgc-1626403022.jpg",
+            "Structure": {
+                "Бренди, коньяк": "40 мл.",
+                "Лимонад ginger ale / имбирный эль": "120 мл."
+            }
+        }
+    ],
+    "Illegal": [
+        {
+            "English_name": "Illegal",
+            "Russian_name": "Иллигал",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/54-iZdWGM-1626403069.jpg",
+            "Structure": {
+                "Мескаль  Espadin": "30 мл.",
+                "Ром белый ямайский бочковой крепости": "15 мл.",
+                "Ликёр фалернум": "15 мл.",
+                "Ликёр мараскино": "5 мл.",
+                "": "мл.",
+                "Сок лаймовый свежевыжатый": "22.5 мл.",
+                "Сироп сахарный": "15 мл."
+            }
+        }
+    ],
+    "Irish Coffee": [
+        {
+            "English_name": "Irish Coffee",
+            "Russian_name": "Айриш Кофи",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/40-HrO82g-1626403103.jpg",
+            "Structure": {
+                "Виски ирландский": "50 мл.",
+                "Кофе американо": "120 мл.",
+                "Сливки 33%": "50 мл.",
+                "Специи сахар": "10 гр."
+            }
+        }
+    ],
+    "Jack Rose": [
+        {
+            "English_name": "Jack Rose",
+            "Russian_name": "Джек Роуз",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/119-B4MpEc-1651675872.png",
+            "Structure": {
+                "Кальвадос": "60 мл.",
+                "Биттер Angostura": "1 дэш",
+                "Сок лимонный": "22.5 мл.",
+                "Сироп гренадин": "22.5 мл."
+            }
+        }
+    ],
+    "John Collins": [
+        {
+            "English_name": "John Collins",
+            "Russian_name": "Джон Коллинз",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/81-4Vlnjp-1626403367.jpg",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Сок лимонный": "30 мл.",
+                "Сироп сахарный": "15 мл.",
+                "Вода сильногазированная": "60 мл."
+            }
+        }
+    ],
+    "Junior Dragon": [
+        {
+            "English_name": "Junior Dragon",
+            "Russian_name": "Джуниор Драгон",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/115-otmmcH-1636398525.jpg",
+            "Structure": {
+                "Байдзю  Маотай": "20 мл.",
+                "Ликёр клюквенный": "20 мл.",
+                "Сироп ванильный Barline": "5 мл.",
+                "Пюре юдзу Agrobar": "20 мл."
+            }
+        }
+    ],
+    "Kir": [
+        {
+            "English_name": "Kir",
+            "Russian_name": "Кир",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/88-vmKRxn-1626403415.jpg",
+            "Structure": {
+                "Вино белое сухое": "90 мл.",
+                "Ликёр крем де касис": "10 мл."
+            }
+        }
+    ],
+    "Kir Royal": [
+        {
+            "English_name": "Kir Royal",
+            "Russian_name": "Кир Рояль",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/89-pA6uqv-1626403522.jpg",
+            "Structure": {
+                "Шампанское, Игристое вино сухое / dry": "90 мл.",
+                "Ликёр крем де касис": "10 мл."
+            }
+        }
+    ],
+    "Last Word": [
+        {
+            "English_name": "Last Word",
+            "Russian_name": "Ласт Уорд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/82-4UDNMC-1626403599.jpg",
+            "Structure": {
+                "Джин London Dry": "22.5 мл.",
+                "Ликёр Chartreuse зелёный": "22.5 мл.",
+                "Ликёр мараскино Luxardo": "22.5 мл.",
+                "Сок лимонный": "22.5 мл."
+            }
+        }
+    ],
+    "Lemon Drop Martini": [
+        {
+            "English_name": "Lemon Drop Martini",
+            "Russian_name": "Лемон Дроп Мартини",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/74-FBaNYv-1626403697.jpg",
+            "Structure": {
+                "Водка лимонная": "30 мл.",
+                "Ликёр трипл сек": "20 мл.",
+                "Сок лимонный": "15 мл."
+            }
+        }
+    ],
+    "Long Island Iced Tea": [
+        {
+            "English_name": "Long Island Iced Tea",
+            "Russian_name": "Лонг-Айленд Айсд Ти",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/90-Uj3XzJ-1626403757.jpg",
+            "Structure": {
+                "Водка": "15 мл.",
+                "Текила белая / blanco": "15 мл.",
+                "Ром белый": "15 мл.",
+                "Джин London Dry": "15 мл.",
+                "Ликёр трипл сек Cointreau": "15 мл.",
+                "Сок лимонный": "30 мл.",
+                "Сироп сахарный": "20 мл.",
+                "Лимонад кола классическая": "50 мл."
+            }
+        }
+    ],
+    "Mai Tai": [
+        {
+            "English_name": "Mai Tai",
+            "Russian_name": "Май Тай",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/91-9CEe2r-1626403796.jpg",
+            "Structure": {
+                "Ром золотой ямайский": "30 мл.",
+                "Ром  из Мартиники": "30 мл.",
+                "Ликёр оранж кюрасао": "15 мл.",
+                "Сироп оршад (orgeat)": "15 мл.",
+                "Сок лаймовый": "30 мл.",
+                "Сироп сахарный": "7.5 мл."
+            }
+        }
+    ],
+    "Mamie Taylor": [
+        {
+            "English_name": "Mamie Taylor",
+            "Russian_name": "Мами Тэйлор",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/135-YSQf23-1651676049.png",
+            "Structure": {
+                "Виски шотландский": "60 мл.",
+                "Лимонад ginger ale / имбирный эль": "100 мл."
+            }
+        }
+    ],
+    "Manhattan": [
+        {
+            "English_name": "Manhattan",
+            "Russian_name": "Манхэттен",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/83-N2cAFV-1626403841.jpg",
+            "Structure": {
+                "Виски ржаной": "50 мл.",
+                "Вермут красный (rosso)": "20 мл.",
+                "Биттер Angostura": "1 дэш"
+            }
+        }
+    ],
+    "Maravel Sling": [
+        {
+            "English_name": "Maravel Sling",
+            "Russian_name": "Маравел Слинг",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/133-JCInba-1638045670.jpg",
+            "Structure": {
+                "Джин London Dry": "60 мл.",
+                "Ликёр Bénédictine": "10 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Пюре манго Agrobar": "30 мл.",
+                "Сок лимонный": "15 мл.",
+                "Сок  тамаринда": "20 мл.",
+                "Вода сильногазированная  до вверха": ""
+            }
+        }
+    ],
+    "Margarita": [
+        {
+            "English_name": "Margarita",
+            "Russian_name": "Маргарита",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/92-Cbv6sA-1626403872.jpg",
+            "Structure": {
+                "Текила белая / blanco 100% агава": "50 мл.",
+                "Ликёр трипл сек": "20 мл.",
+                "Сок лаймовый": "15 мл."
+            }
+        }
+    ],
+    "Martinez": [
+        {
+            "English_name": "Martinez",
+            "Russian_name": "Мартинез",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/84-FeeKNx-1626403931.jpg",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Вермут красный (rosso)": "45 мл.",
+                "Ликёр мараскино": "5 мл.",
+                "Биттер ароматический апельсиновый": "2 дэш"
+            }
+        }
+    ],
+    "Mary Pickford": [
+        {
+            "English_name": "Mary Pickford",
+            "Russian_name": "Мэри Пикфорд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/85-EbW2Iu-1626404034.jpg",
+            "Structure": {
+                "Ром белый": "45 мл.",
+                "Ликёр мараскино": "7.5 мл.",
+                "Сок ананасовый свежевыжатый": "45 мл.",
+                "Сироп гренадин": "5 мл."
+            }
+        }
+    ],
+    "Mimosa": [
+        {
+            "English_name": "Mimosa",
+            "Russian_name": "Мимоза",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/93-ciljTb-1626404105.jpg",
+            "Structure": {
+                "Шампанское, Игристое вино сухое / dry Prosecco": "75 мл.",
+                "Сок апельсиновый свежевыжатый": "75 мл."
+            }
+        }
+    ],
+    "Mint Julep": [
+        {
+            "English_name": "Mint Julep",
+            "Russian_name": "Минт Джулеп",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/94-tfuEkO-1626404155.jpg",
+            "Structure": {
+                "Виски бурбон": "60 мл.",
+                "Травы, листья мята веточки": "4 шт.",
+                "Специи сахар пудра": "5 гр.",
+                "Вода без газа": "10 мл."
+            }
+        }
+    ],
+    "Mojito": [
+        {
+            "English_name": "Mojito",
+            "Russian_name": "Мохито",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/95-Majcd7-1626404198.jpg",
+            "Structure": {
+                "Ром белый кубинский": "45 мл.",
+                "Сок лаймовый свежевыжатый": "20 мл.",
+                "Травы, листья мята веточки": "6 шт.",
+                "Специи сахар белый тростниковый": "10 гр.",
+                "Вода содовая": "50 мл."
+            }
+        }
+    ],
+    "Monkey Gland": [
+        {
+            "English_name": "Monkey Gland",
+            "Russian_name": "Манки Глэнд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/86-3aMfff-1626404271.jpg",
+            "Structure": {
+                "Джин": "45 мл.",
+                "Абсент классический": "10 мл.",
+                "Сок апельсиновый свежевыжатый": "45 мл.",
+                "Сироп гренадин": "10"
+            }
+        }
+    ],
+    "Moscow Mule": [
+        {
+            "English_name": "Moscow Mule",
+            "Russian_name": "Москоу Мул",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/65-bNPiUF-1626404408.jpg",
+            "Structure": {
+                "Водка": "45 мл.",
+                "Пиво имбирное": "120 мл.",
+                "Сок лаймовый": "10 мл."
+            }
+        }
+    ],
+    "Naked and Famous": [
+        {
+            "English_name": "Naked and Famous",
+            "Russian_name": "Нэйкд энд Фэймас",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/75-MC79Hd-1626404514.jpg",
+            "Structure": {
+                "Мескаль": "22.5 мл.",
+                "Ликёр Chartreuse зелёный": "22.5 мл.",
+                "Биттер аперитивный Aperol": "22.5 мл.",
+                "Сок лаймовый": "22.5 мл."
+            }
+        }
+    ],
+    "Negroni": [
+        {
+            "English_name": "Negroni",
+            "Russian_name": "Негрони",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/87-4BQOvM-1626404566.jpg",
+            "Structure": {
+                "Джин London Dry": "30 мл.",
+                "Биттер аперитивный Campari": "30 мл.",
+                "Вермут красный (rosso)": "30 мл."
+            }
+        }
+    ],
+    "New York Sour": [
+        {
+            "English_name": "New York Sour",
+            "Russian_name": "Нью-Йорк Сауэр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/47-dL3VOU-1626404684.jpg",
+            "Structure": {
+                "Виски бурбон или ржаной": "60 мл.",
+                "Вино красное сухое Шираз, Сира или Мальбек": "15 мл.",
+                "Сироп сахарный": "22.5 мл.",
+                "Сок лимонный": "30 мл.",
+                "Яйцо куриное белок": "30 мл."
+            }
+        }
+    ],
+    "Oasis in the head": [
+        {
+            "English_name": "Oasis in the head",
+            "Russian_name": "Оазис в голове",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/117-IenAJJ-1636398543.jpg",
+            "Structure": {
+                "Байдзю  Маотай": "35 мл.",
+                "Вода кокосовая с розовой гуавой": "45 мл.",
+                "Пюре лимон Агробар": "20 мл.",
+                "Сироп манго Барлайн": "10 мл.",
+                "Сироп инжир Барлайн": "10 мл.",
+                "Яйцо заменитель белка Бабл дропс": "2 капли/drop"
+            }
+        }
+    ],
+    "Old Cuban": [
+        {
+            "English_name": "Old Cuban",
+            "Russian_name": "Олд Кьюбан",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/48-kHFvZq-1626404797.jpg",
+            "Structure": {
+                "Ром выдержанный >3 лет": "45 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Шампанское, Игристое вино сухое / dry или Prosecco": "60 мл.",
+                "Травы, листья мята": "8 шт.",
+                "Сок лаймовый": "22.5 мл.",
+                "Сироп сахарный": "30 мл."
+            }
+        }
+    ],
+    "Old Fashioned": [
+        {
+            "English_name": "Old Fashioned",
+            "Russian_name": "Олд Фэшнд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/46-fCfj1G-1626404868.jpg",
+            "Structure": {
+                "Виски бурбон или ржаной": "45 мл.",
+                "Биттер Angostura": "3 дэш",
+                "Специи сахар кубик": "5 гр.",
+                "Вода без газа": "10 мл."
+            }
+        }
+    ],
+    "Paloma": [
+        {
+            "English_name": "Paloma",
+            "Russian_name": "Палома",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/49-4oroaV-1626404919.jpg",
+            "Structure": {
+                "Текила белая / blanco 100% агава": "50 мл.",
+                "Сок лаймовый": "5 мл.",
+                "Специи соль": "1 гр.",
+                "Лимонад  содовая из розового грейпфрута": "100 мл."
+            }
+        }
+    ],
+    "Paper Plane": [
+        {
+            "English_name": "Paper Plane",
+            "Russian_name": "Пэйпа Плэйн",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/50-Il24Rq-1626404978.jpg",
+            "Structure": {
+                "Виски бурбон": "30 мл.",
+                "Биттер амаро Nonino": "30 мл.",
+                "Биттер аперитивный Aperol": "30 мл.",
+                "Сок лимонный": "30 мл."
+            }
+        }
+    ],
+    "Paradise": [
+        {
+            "English_name": "Paradise",
+            "Russian_name": "Парадайс",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/43-2u7I6y-1626405046.jpg",
+            "Structure": {
+                "Джин": "30 мл.",
+                "Ликёр абрикосовый бренди": "20 мл.",
+                "Сок апельсиновый": "15 мл."
+            }
+        }
+    ],
+    "Penicillin": [
+        {
+            "English_name": "Penicillin",
+            "Russian_name": "Пенициллин",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/51-HlFLJB-1626405095.jpg",
+            "Structure": {
+                "Виски шотландский бленд": "60 мл.",
+                "Виски шотландский островной": "7.5 мл.",
+                "Сок лимонный": "22.5 мл.",
+                "Сироп медовый": "22.5 мл.",
+                "Плоды имбирь слайсы": "3 гр."
+            }
+        }
+    ],
+    "Pina Colada": [
+        {
+            "English_name": "Pina Colada",
+            "Russian_name": "Пинья Колада",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/64-SIGN20-1626405130.jpg",
+            "Structure": {
+                "Ром белый": "50 мл.",
+                "Сливки  кокосовые": "30 мл.",
+                "Сок ананасовый свежевыжатый или 4 дольки ананаса": "50 мл.",
+                "Сок лаймовый (по желанию)": "2 дэш/dash"
+            }
+        }
+    ],
+    "Pink Lady": [
+        {
+            "English_name": "Pink Lady",
+            "Russian_name": "Пинк Лэйди",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/120-Ypchps-1651676425.png",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Кальвадос": "15 мл.",
+                "Сок лимонный": "22.5 мл.",
+                "Сироп сахарный": "12.5 мл.",
+                "Сироп гренадин": "10 мл.",
+                "Яйцо куриное белок": "15 мл."
+            }
+        }
+    ],
+    "Pisco Sour": [
+        {
+            "English_name": "Pisco Sour",
+            "Russian_name": "Писко Сауэр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/63-vUA2SJ-1626405164.jpg",
+            "Structure": {
+                "Писко": "мл.",
+                "Сок лимонный": "30 мл.",
+                "Сироп сахарный": "20 мл.",
+                "Яйцо куриное белок": "1 шт."
+            }
+        }
+    ],
+    "Planters Punch": [
+        {
+            "English_name": "Planters Punch",
+            "Russian_name": "Плэнтерс Панч",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/45-svhGro-1626405214.jpg",
+            "Structure": {
+                "Ром  ямайский": "45 мл.",
+                "Сок лаймовый": "15 мл.",
+                "Сок  сахарного тростника": "30 мл.",
+                "Вода без газа": "100 мл."
+            }
+        }
+    ],
+    "Porn Star Martini": [
+        {
+            "English_name": "Porn Star Martini",
+            "Russian_name": "Порн Стар Мартини",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/126-Mf0wN5-1637951929.jpg",
+            "Structure": {
+                "Водка ванильная": "60 мл.",
+                "Шампанское, Игристое вино сухое / dry": "60 мл.",
+                "Ликёр маракуйя Passoa": "15 мл.",
+                "Сок лаймовый": "15 мл.",
+                "Пюре маракуйя Agrobar": "45 мл."
+            }
+        }
+    ],
+    "Porto Flip": [
+        {
+            "English_name": "Porto Flip",
+            "Russian_name": "Порто флип",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/56-pdaEOZ-1626405264.jpg",
+            "Structure": {
+                "Бренди, коньяк": "15 мл.",
+                "Порто  Ruby Tawny": "45 мл.",
+                "Яйцо куриное желток": "10 мл."
+            }
+        }
+    ],
+    "Ramos Fizz": [
+        {
+            "English_name": "Ramos Fizz",
+            "Russian_name": "Рамос Физ",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/57-v48mte-1626405332.jpg",
+            "Structure": {
+                "Джин": "45 мл.",
+                "Сливки 20%": "60 мл.",
+                "Сироп сахарный": "30 мл.",
+                "Сок лимонный": "15 мл.",
+                "Сок лаймовый": "15 мл.",
+                "Вода апельсиновая": "3 дэш/dash",
+                "Пряности ваниль экстракт": "2 капли/drop",
+                "Яйцо куриное белок": "30 мл.",
+                "Вода содовая": "30 мл."
+            }
+        }
+    ],
+    "Russian Spring Punch": [
+        {
+            "English_name": "Russian Spring Punch",
+            "Russian_name": "Рашн Спринг Панч",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/52-3MVmig-1626405443.jpg",
+            "Structure": {
+                "Водка": "25 мл.",
+                "Ликёр крем де касис": "15 мл.",
+                "Шампанское, Игристое вино сухое / dry": "100 мл.",
+                "Сок лимонный": "25 мл.",
+                "Сироп сахарный": "10 мл."
+            }
+        }
+    ],
+    "Rusty Nail": [
+        {
+            "English_name": "Rusty Nail",
+            "Russian_name": "Расти Нэйл",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/109-mkiUEm-1626405510.jpg",
+            "Structure": {
+                "Виски шотландский": "45 мл.",
+                "Ликёр травяной Drambuie": "25 мл."
+            }
+        }
+    ],
+    "Sazeraс": [
+        {
+            "English_name": "Sazeraс",
+            "Russian_name": "Сазерак",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/108-6Jzees-1626405561.jpg",
+            "Structure": {
+                "Бренди, коньяк  или ржаной виски": "50 мл.",
+                "Абсент классический": "10 мл.",
+                "Биттер ароматический Peychaud's": "2 дэш",
+                "Специи сахар кубик": "5 гр."
+            }
+        }
+    ],
+    "Scarlet": [
+        {
+            "English_name": "Scarlet",
+            "Russian_name": "Скарлет",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/114-RJAuzD-1636398565.jpg",
+            "Structure": {
+                "Бренди, коньяк  Changyu": "20 мл.",
+                "Ликёр абрикосовый бренди Fruko Schulz": "10 мл.",
+                "Порто руби Kopke": "10 мл.",
+                "Биттер ароматический Bar Keep лаванда": "2 дэш",
+                "Сироп лесные ягоды Барлайн": "10 мл.",
+                "Раствор лимонной кислоты (60 г. лимонной кислоты на 1 л. воды)": "15 мл."
+            }
+        }
+    ],
+    "Sea Breeze": [
+        {
+            "English_name": "Sea Breeze",
+            "Russian_name": "Си Бриз",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/62-NZn2l1-1626405599.jpg",
+            "Structure": {
+                "Водка": "40 мл.",
+                "Морс клюквенный": "120 мл.",
+                "Сок грейпфрутовый": "30 мл."
+            }
+        }
+    ],
+    "Sex on the Beach": [
+        {
+            "English_name": "Sex on the Beach",
+            "Russian_name": "Секс он зе Бич",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/61-ZoMj7N-1626405663.jpg",
+            "Structure": {
+                "Водка": "40 мл.",
+                "Шнапс персиковый": "20 мл.",
+                "Сок апельсиновый свежевыжатый": "40 мл.",
+                "Морс клюквенный": "40 мл."
+            }
+        }
+    ],
+    "Sidecar": [
+        {
+            "English_name": "Sidecar",
+            "Russian_name": "Сайдкар",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/107-wVaQ0D-1626405730.jpg",
+            "Structure": {
+                "Бренди, коньяк": "50 мл.",
+                "Ликёр трипл сек": "20 мл.",
+                "Сок лимонный": "20"
+            }
+        }
+    ],
+    "Singapore Sling": [
+        {
+            "English_name": "Singapore Sling",
+            "Russian_name": "Сингапур Слинг",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/60-1s8M4R-1626405771.jpg",
+            "Structure": {
+                "Джин London Dry": "30 мл.",
+                "Ликёр вишнёвый": "15 мл.",
+                "Ликёр трипл сек Cointreau": "7.5 мл.",
+                "Ликёр Bénédictine": "7.5 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Сок ананасовый свежевыжатый": "120 мл.",
+                "Сок лаймовый": "15 мл.",
+                "Сироп гренадин": "10 мл."
+            }
+        }
+    ],
+    "Southside": [
+        {
+            "English_name": "Southside",
+            "Russian_name": "Саутсайд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/70-V4r1ni-1626405803.jpg",
+            "Structure": {
+                "Джин London Dry": "60 мл.",
+                "Сок лимонный": "30 мл.",
+                "Сироп сахарный": "15 мл.",
+                "Травы, листья мята": "6 шт.",
+                "Яйцо куриное белок": "1 мл."
+            }
+        }
+    ],
+    "Southside Fizz": [
+        {
+            "English_name": "Southside Fizz",
+            "Russian_name": "Сауссайд Физз",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/134-nWHHtW-1638184850.jpg",
+            "Structure": {
+                "Джин London Dry": "60 мл.",
+                "Биттер Angostura по желанию": "2 дэш",
+                "Сок лимонный": "30 мл.",
+                "Сироп сахарный rich (насыщенный) 2:1": "20 мл.",
+                "Травы, листья мята": "10 гр.",
+                "Вода сильногазированная до вверха": "мл."
+            }
+        }
+    ],
+    "Spicy Fifty": [
+        {
+            "English_name": "Spicy Fifty",
+            "Russian_name": "Спайси Фифти",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/71-kH3Nxv-1626405848.jpg",
+            "Structure": {
+                "Водка ванильная": "50 мл.",
+                "Ликёр бузинный": "15 мл.",
+                "Сок лимонный": "15 мл.",
+                "Сироп медовый": "10 мл.",
+                "Плоды красный чилийский перец тонкие слайсы": "2 шт."
+            }
+        }
+    ],
+    "Spritz": [
+        {
+            "English_name": "Spritz",
+            "Russian_name": "Спритц",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/72-k0YTcw-1626405920.jpg",
+            "Structure": {
+                "Шампанское, Игристое вино сухое / dry Prosecco": "90 мл.",
+                "Биттер аперитивный Aperol": "60 мл.",
+                "Вода сильногазированная": "1 сплеш/splash"
+            }
+        }
+    ],
+    "Stinger": [
+        {
+            "English_name": "Stinger",
+            "Russian_name": "Стингер",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/106-r2gUiR-1626405971.jpg",
+            "Structure": {
+                "Бренди, коньяк": "50 мл.",
+                "Ликёр крем де мент прозрачный": "20 мл."
+            }
+        }
+    ],
+    "Strobile Sour": [
+        {
+            "English_name": "Strobile Sour",
+            "Russian_name": "Стройбайл Сауэр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/138-pzRf8u-1640107424.jpg",
+            "Structure": {
+                "Джин London Dry": "50 мл.",
+                "Ликёр мараскино": "20 мл.",
+                "Сок лимонный": "20 мл.",
+                "Сироп сахарный": "20 мл.",
+                "Варенье шишковое": "15 мл.",
+                "Травы, листья кинза": "1 шт.",
+                "Яйцо заменитель белка Easy foam": "2 капли/drop"
+            }
+        }
+    ],
+    "Suffering Bastard": [
+        {
+            "English_name": "Suffering Bastard",
+            "Russian_name": "Саферин Бастад",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/73-P6V5ih-1626406017.jpg",
+            "Structure": {
+                "Бренди, коньяк": "30 мл.",
+                "Джин": "30 мл.",
+                "Биттер Angostura": "2 дэш",
+                "Пиво имбирное": "50 мл.",
+                "Сок лаймовый": "15"
+            }
+        }
+    ],
+    "Tequila Sunrise": [
+        {
+            "English_name": "Tequila Sunrise",
+            "Russian_name": "Текила Санрайз",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/59-jkSdO7-1626406045.jpg",
+            "Structure": {
+                "Текила": "45 мл.",
+                "Сок апельсиновый свежевыжатый": "90 мл.",
+                "Сироп гренадин": "15 мл."
+            }
+        }
+    ],
+    "Tipperary": [
+        {
+            "English_name": "Tipperary",
+            "Russian_name": "Типперери",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/41-cEdYmk-1626406087.jpg",
+            "Structure": {
+                "Виски ирландский": "50 мл.",
+                "Вермут красный (rosso)": "25 мл.",
+                "Ликёр травяной": "15 мл.",
+                "Биттер Angostura": "2 дэш"
+            }
+        }
+    ],
+    "Tommy’s Margarita": [
+        {
+            "English_name": "Tommy’s Margarita",
+            "Russian_name": "Томмис Маргарита",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/23-Col2C0-1626406157.jpg",
+            "Structure": {
+                "Текила отдохнувная / reposado 100% агава": "60 мл.",
+                "Сок лаймовый": "30 мл.",
+                "Нектар агавы": "30 мл."
+            }
+        }
+    ],
+    "Trinidad Sour": [
+        {
+            "English_name": "Trinidad Sour",
+            "Russian_name": "Тринидад Сауэр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/22-3iSYXa-1626406208.jpg",
+            "Structure": {
+                "Биттер ароматический Angostura": "45 мл.",
+                "Виски ржаной": "15 мл.",
+                "Сироп оршад (orgeat)": "30 мл.",
+                "Сок лимонный свежевыжатый": "22.5 мл."
+            }
+        }
+    ],
+    "Tuxedo": [
+        {
+            "English_name": "Tuxedo",
+            "Russian_name": "Тэксидоу",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/105-J9TMgV-1626406249.jpg",
+            "Structure": {
+                "Джин Old Tom": "30 мл.",
+                "Вермут сухой (dry)": "30 мл.",
+                "Ликёр мараскино": "3 мл.",
+                "Абсент классический": "1 дэш",
+                "Биттер ароматический апельсиновый": "3 дэш"
+            }
+        }
+    ],
+    "VE.N.TO": [
+        {
+            "English_name": "VE.N.TO",
+            "Russian_name": "ВЕ.Н.ТУ",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/15-HHpnBa-1626406314.jpg",
+            "Structure": {
+                "Граппа не выдержанная (giovane)": "45 мл.",
+                "Сок лимонный": "22.5 мл.",
+                "Сироп медовый (100 гр. мёда, 64 гр. воды)": "15 мл.",
+                "Кордиал ромашки": "15 мл.",
+                "Яйцо куриное белок по желанию": "30 мл."
+            }
+        }
+    ],
+    "Vesper": [
+        {
+            "English_name": "Vesper",
+            "Russian_name": "Веспер",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/58-NAfzy4-1626406356.jpg",
+            "Structure": {
+                "Джин London Dry": "45 мл.",
+                "Водка": "15 мл.",
+                "Вермут белый (bianco) Lillet Blanc": "7.5 мл."
+            }
+        }
+    ],
+    "Vieus Carré": [
+        {
+            "English_name": "Vieus Carré",
+            "Russian_name": "Вью Карэ",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/101-MNK2Tv-1626406460.jpg",
+            "Structure": {
+                "Виски ржаной": "30 мл.",
+                "Бренди, коньяк": "30 мл.",
+                "Вермут красный (rosso)": "30 мл.",
+                "Ликёр Bénédictine": "5 мл.",
+                "Биттер ароматический Peychaud's": "2 дэш"
+            }
+        }
+    ],
+    "Whiskey Sour": [
+        {
+            "English_name": "Whiskey Sour",
+            "Russian_name": "Виски Сауэр",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/100-RxDXaa-1626406531.jpg",
+            "Structure": {
+                "Виски бурбон": "45 мл.",
+                "Сок лимонный": "25 мл.",
+                "Сироп сахарный": "20 мл.",
+                "Яйцо куриное белок": "20 мл."
+            }
+        }
+    ],
+    "White Lady": [
+        {
+            "English_name": "White Lady",
+            "Russian_name": "Уайт Леди",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/99-gTbmid-1626406567.jpg",
+            "Structure": {
+                "Джин": "40 мл.",
+                "Ликёр трипл сек": "30 мл.",
+                "Сок лимонный": "20 мл."
+            }
+        }
+    ],
+    "Yellow Bird": [
+        {
+            "English_name": "Yellow Bird",
+            "Russian_name": "Еллоу Бёд",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/16-d6GLTT-1626406609.jpg",
+            "Structure": {
+                "Ром белый": "30 мл.",
+                "Ликёр трипл сек": "15 мл.",
+                "Ликёр  Galliano l`Autentico": "15 мл.",
+                "Сок лаймовый свежевыжатый": "15 мл."
+            }
+        }
+    ],
+    "Zombie": [
+        {
+            "English_name": "Zombie",
+            "Russian_name": "Зомби",
+            "Img_href": "https://cocktails.bartenders.pro/images/thumbs/300x300/55-ywUqiH-1626406638.jpg",
+            "Structure": {
+                "Ром темный ямайский": "45 мл.",
+                "Ром золотой пуэрториканский": "45 мл.",
+                "Ром  демерара": "30 мл.",
+                "Биттер Angostura": "1 дэш",
+                "Перно": "6 дэш",
+                "Сок лаймовый": "20 мл.",
+                "Сироп фалернум (falernum)": "15 мл.",
+                "Сок грейпфрутовый жёлтый свежевыжатый": "10 мл.",
+                "Сироп коричный": "5 мл.",
+                "Сироп гренадин": "5 мл."
+            }
+        }
+    ]
+}

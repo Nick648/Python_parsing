@@ -218,11 +218,11 @@ def parse(year):
         # parse_get_trailer(all_films_dict)
         sleep(random.uniform(1, 2))
 
-    all_films_dict['Всего фильмов:'] = len(all_films_dict)
+    all_films_dict['Всего фильмов:'] = len(all_films_dict)-1
     # parsing_sites_csv(all_films_dict, year)
     with open(f"{F_FILMS}/Films_{year}.json", "w", encoding="utf-8") as file:  # windows-1251
         json.dump(all_films_dict, file, indent=4, ensure_ascii=False)
-    print(f"Всего фильмов: {len(all_films_dict)}")
+    print(f"Всего фильмов: {len(all_films_dict)-1}")
 
 
 # Начало программы
