@@ -1,12 +1,9 @@
 # -*- coding: utf8 -*-
 import random
-import time
 from time import sleep
 import requests
 from bs4 import BeautifulSoup
 import json
-import csv
-import datetime
 import os
 import colorama
 
@@ -14,12 +11,20 @@ import colorama
 colorama.init()
 requests.packages.urllib3.disable_warnings()
 URL_COCKTAILS = "https://cocktails.bartenders.pro"
+NAME_DIR_COCKTAILS_PICS = "Cocktails pics"
+WAY_DIR_COCKTAILS_PICS = os.path.join(os.getcwd(), NAME_DIR_COCKTAILS_PICS)
 
 # Заголовки
 headers = {
     "Accept": "*/*",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 }
+
+
+def create_dir() -> None:
+    """ Creating a folder for files """
+    if not os.path.exists(WAY_DIR_COCKTAILS_PICS):  # Creating a folder for files
+        os.mkdir(WAY_DIR_COCKTAILS_PICS)
 
 
 # Запись словаря коктейлей в json файл - Pass
@@ -41,6 +46,17 @@ def try_open(url: str) -> [bool, str]:
         return False, f"Сайта {url} не существует"
 
 
+def try_download_picture(url_pic: str, name_pic: str):
+    try:
+        img = requests.get(url_pic)
+        way_name_pic = os.path.join(WAY_DIR_COCKTAILS_PICS, name_pic + ".jpg")
+        img_file = open(way_name_pic, "wb")
+        img_file.write(img.content)
+        img_file.close()
+    except Exception as ex:
+        print(f'{ex=}\n{type(ex)=}\n{type(ex).__name__=}')
+
+
 # Парсинг каждого отдельного коктейля и запись в list
 def parsing_cocktail_info(cocktail_url: str, cur_cocktail: int) -> list:
     print('\r', end="")
@@ -58,7 +74,7 @@ def parsing_cocktail_info(cocktail_url: str, cur_cocktail: int) -> list:
     for tr in cocktail_structure:
         component, volume = tr.find_all("td")
         cocktail_structure_dict[component.text] = volume.text
-
+    try_download_picture(url_pic=cocktail_total_img_href, name_pic=cocktail_english_name)
     cocktail_info = list()
     cocktail_info.append(
         {
@@ -108,6 +124,11 @@ def parse_cocktails() -> None:
     write_json(all_cocktails_dict)
 
 
-if __name__ == '__main__':
+def main() -> None:
+    create_dir()
     parse_cocktails()
+
+
+if __name__ == '__main__':
+    main()
     print(f"\n{'-' * 20} Done! {'-' * 20}")
